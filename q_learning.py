@@ -93,10 +93,3 @@ plt.xlabel('Episode')
 plt.ylabel('Training total reward')
 plt.title('Total rewards over all episodes in training')
 plt.show()
-
-#Visualizing the epsilons over all episodes
-plt.plot(epsilons)
-plt.xlabel('Episode')
-plt.ylabel('Epsilon')
-plt.title("Epsilon for episode")
-plt.show()
